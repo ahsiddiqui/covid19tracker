@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/covid19tracker/static/css/main.5e24b1dc.chunk.css",
-    "main.js": "/covid19tracker/static/js/main.2931a7a3.chunk.js",
-    "main.js.map": "/covid19tracker/static/js/main.2931a7a3.chunk.js.map",
+    "main.css": "/covid19tracker/static/css/main.fbeebaec.chunk.css",
+    "main.js": "/covid19tracker/static/js/main.f4586252.chunk.js",
+    "main.js.map": "/covid19tracker/static/js/main.f4586252.chunk.js.map",
     "runtime-main.js": "/covid19tracker/static/js/runtime-main.4eeeee50.js",
     "runtime-main.js.map": "/covid19tracker/static/js/runtime-main.4eeeee50.js.map",
     "static/css/2.7c35e809.chunk.css": "/covid19tracker/static/css/2.7c35e809.chunk.css",
-    "static/js/2.8cbabdca.chunk.js": "/covid19tracker/static/js/2.8cbabdca.chunk.js",
-    "static/js/2.8cbabdca.chunk.js.map": "/covid19tracker/static/js/2.8cbabdca.chunk.js.map",
+    "static/js/2.530c59a8.chunk.js": "/covid19tracker/static/js/2.530c59a8.chunk.js",
+    "static/js/2.530c59a8.chunk.js.map": "/covid19tracker/static/js/2.530c59a8.chunk.js.map",
     "index.html": "/covid19tracker/index.html",
-    "precache-manifest.8a6e199050142d17907c0a2ecb4ce9a2.js": "/covid19tracker/precache-manifest.8a6e199050142d17907c0a2ecb4ce9a2.js",
+    "precache-manifest.000805a48f2e9dfbfdd0498c4fc90f68.js": "/covid19tracker/precache-manifest.000805a48f2e9dfbfdd0498c4fc90f68.js",
     "service-worker.js": "/covid19tracker/service-worker.js",
     "static/css/2.7c35e809.chunk.css.map": "/covid19tracker/static/css/2.7c35e809.chunk.css.map",
-    "static/css/main.5e24b1dc.chunk.css.map": "/covid19tracker/static/css/main.5e24b1dc.chunk.css.map",
-    "static/js/2.8cbabdca.chunk.js.LICENSE.txt": "/covid19tracker/static/js/2.8cbabdca.chunk.js.LICENSE.txt",
+    "static/css/main.fbeebaec.chunk.css.map": "/covid19tracker/static/css/main.fbeebaec.chunk.css.map",
+    "static/js/2.530c59a8.chunk.js.LICENSE.txt": "/covid19tracker/static/js/2.530c59a8.chunk.js.LICENSE.txt",
+    "static/media/adil.png": "/covid19tracker/static/media/adil.b9156d98.png",
     "static/media/logo.svg": "/covid19tracker/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4eeeee50.js",
     "static/css/2.7c35e809.chunk.css",
-    "static/js/2.8cbabdca.chunk.js",
-    "static/css/main.5e24b1dc.chunk.css",
-    "static/js/main.2931a7a3.chunk.js"
+    "static/js/2.530c59a8.chunk.js",
+    "static/css/main.fbeebaec.chunk.css",
+    "static/js/main.f4586252.chunk.js"
   ]
 }
