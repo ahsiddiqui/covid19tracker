@@ -12,13 +12,13 @@ body {
 .app__header > h1 {
   color: #fc3c3c;
   font-size: 2rem;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
 }
 .app__header {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .app__dropdown {
   background-color: white;
@@ -52,7 +52,28 @@ body {
   text-align: center;
 }
 .app__rightGraphTitle {
+  font-size: 1rem;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 5px;
 }
+.my__img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.app__TitleCenter{
+  text-align: center;
+  color: maroon;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.app__SubTitleCenter{
+  text-align: center;
+  color: darkgray;
+  font-style: italic;
+  font-weight: bold;
+  font-size: smaller;
+}
+

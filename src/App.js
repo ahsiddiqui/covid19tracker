@@ -7,6 +7,7 @@ import { sortData, prettyPrintStat } from "./util";
 import LineGraph from "./LineGraph";
 import logo from './logo.svg';
 import './App.css';
+import myphoto from './adil.png';
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -72,7 +73,14 @@ function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
+          <div className="app__TitleCenter">
+          <img src={myphoto} alt="Adil Siddiqui" className="my__img"/>
+          <h3>Adil Siddiqui</h3>
+          </div>
+          <div className="app__TitleCenter">
           <h1>COVID-19 Tracker</h1>
+          <p className="app__SubTitleCenter">(Inspired By Clever Programmer)</p>
+          </div>
           <FormControl className="app__dropdown">
             <Select variant="outlined" onChange={onCountryChange} value={country}>
               <MenuItem value="worldwide">Worldwide</MenuItem>
@@ -87,23 +95,26 @@ function App() {
             isRed
             active={casesType === "cases"}
             onClick={e => setCasesType('cases')}
-            title="Coronavirus Cases Today"
-            cases={prettyPrintStat(countryInfo.todayCases)}
+            title="New cases Today"
+            cases={(countryInfo.todayCases)}
+            subtitle="Total cases"
             total={prettyPrintStat(countryInfo.cases)}
           />
           <InfoBox
             active={casesType === "recovered"}
             onClick={e => setCasesType('recovered')}
-            title="Recovered Today"
-            cases={prettyPrintStat(countryInfo.todayRecovered)}
+            title="Recovered cases Today"
+            cases={(countryInfo.todayRecovered)}
+            subtitle="Total recovery"
             total={prettyPrintStat(countryInfo.recovered)}
           />
           <InfoBox
             isRed
             active={casesType === "deaths"}
             onClick={e => setCasesType('deaths')}
-            title="Deaths Today"
-            cases={prettyPrintStat(countryInfo.todayDeaths)}
+            title="Deaths cases Today"
+            cases={(countryInfo.todayDeaths)}
+            subtitle="Total deaths"
             total={prettyPrintStat(countryInfo.deaths)}
           />
         </div>
@@ -116,9 +127,9 @@ function App() {
       </div>
       <Card className="app__right">
         <CardContent>
-          <h3 className="app__rightTableTitle">current cases by country</h3>
+          <h3 className="app__rightTableTitle">Total Cases by Country</h3>
           <Table countries={tableData} />
-          <h3 className="app__rightGraphTitle">new daily {casesType} worldwide</h3>
+          <h3 className="app__rightGraphTitle">New Daily {casesType} Worldwide (till yesterday)</h3>
           <LineGraph className="app__graph" casesType={casesType} />
         </CardContent>   
       </Card>
