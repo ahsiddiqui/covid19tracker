@@ -127,10 +127,11 @@ function App() {
       </div>
       <Card className="app__right">
         <CardContent>
+        <h3 className="app__rightGraphTitle">New Daily {casesType} Worldwide (till yesterday)</h3>
+          <LineGraph className="app__graph" casesType={casesType} />
+          <hr></hr><br></br>         
           <h3 className="app__rightTableTitle">Total Cases by Country</h3>
           <Table countries={tableData} />
-          <h3 className="app__rightGraphTitle">New Daily {casesType} Worldwide (till yesterday)</h3>
-          <LineGraph className="app__graph" casesType={casesType} />
         </CardContent>   
       </Card>
     </div>
